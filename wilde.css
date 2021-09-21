@@ -16,6 +16,7 @@
 {
     background-color: beige;
     color: rgb(190, 59, 7);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -30,7 +31,7 @@ h3.GWENDOLEN{
 
 h3.MERRIMAN{
     font-family: Verdana;
-    font-size: 15px;
+    font-size: 20px;
     color: rgb(235, 85, 26);
 
 
@@ -38,11 +39,11 @@ h3.MERRIMAN{
 h3.CECILY{
 
     font-family: Verdana;
-    font-size: 15px;
+    font-size: 20px;
     color: mediumpurple;
 }
 h3.GWENDOLEN:hover{
-    text-shadow: 2px 2px violet;
+    text-shadow: 2px 2px rgb(189, 192, 14);
     border-style: groove;
     border-color: saddlebrown;
 }
@@ -54,7 +55,7 @@ h3.MERRIMAN:hover{
 
 }
 h3.CECILY:hover{
-    text-shadow: 2px 2px violet;
+    text-shadow: 2px 2px rgb(18, 21, 212);
     border-style: groove;
     border-color: saddlebrown;
   
@@ -65,28 +66,76 @@ h3{
 
 }
 
-table{
-    margin: 25px;
-    border-style: dashed;
-    border-color: rgba(44, 1, 37, 0.014);
-    text-align: center;
-    margin: 25px 0px 0px 350px ;
-}
-th {
-    border: 2px solid black;
-    background-color: rgb(129, 145, 99);
-    padding: 18px;
-    text-align: center;
-  }
+table.table_actors{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  width: 40%;
+  color: black;
+  
+    
 
-  td{
-    border: 1px solid black;
-    color:rgb(128, 0, 11);
-    padding: 20px;
+}
+table.table_actors td, table.table_actors th {
+    border: 1px solid rgb(10, 8, 8);
+    padding: 10px;
+    text-align: left;
+    color: rgb(62, 134, 107)
+}
+
+table.table_actors th {
+    padding-top: 12px;
+    padding-bottom: 12px;
     text-align: center;
+    background-color:rgb(20, 197, 197);
+    color: white;
+}
+th,td {
+
+    border : 1px solid black;
 }
 
 
 tr:nth-child(odd){
     background-color: rgb(154, 175, 202);
+
 }
+
+tr:hover {
+    background-color: rgb(194, 4, 4);}
+    .wilde.css {
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    ul.navbar-horizontal {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    ul.navbar-horizontal li {
+        float:left;
+        background: linear-gradient(110deg, #ad5710 60%, #076642 60%);
+    }
+    ul.navbar-horizontal a {
+        display:block;
+        padding:20px;
+        color: rgb(19, 18, 17);
+    }
+    ul.navbar-horizontal a:hover {
+        background-color: rgb(214, 115, 21);
+        color:yellowgreen;
+    }
+    a{
+        font-size: x-large;
+    }
+
+    a.hover{
+        text-shadow: 2px 2px rgb(202, 189, 3);
+        border-style: groove;
+        border-color: rgb(73, 145, 15);
+    }
+     
+
+
+ /* body{
+    background-image:url("background.jpg")
+}  */

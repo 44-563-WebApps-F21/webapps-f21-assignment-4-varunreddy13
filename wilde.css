@@ -1,3 +1,6 @@
+/* body{
+    background-image:url("background.jpg")
+}  */
 .speech
 {
     font-size: 20px;
@@ -43,21 +46,27 @@ h3.CECILY{
     color: mediumpurple;
 }
 h3.GWENDOLEN:hover{
-    text-shadow: 2px 2px rgb(189, 192, 14);
-    border-style: groove;
+    text-shadow: 2px 3px rgb(143, 6, 40);
+    border-style: ridge;
+    filter: blur(2px);
     border-color: saddlebrown;
+    border: solid 4px rgb(253, 108, 108);
 }
 h3.MERRIMAN:hover{
 
-    text-shadow: 2px 2px violet;
-    border-style: groove;
+    text-shadow: 2px 3px rgb(9, 236, 104);
+    border-style: border;
+    filter: blur(2px);
     border-color: saddlebrown;
+    border: solid 4px rgb(243, 107, 107);
 
 }
 h3.CECILY:hover{
-    text-shadow: 2px 2px rgb(18, 21, 212);
-    border-style: groove;
+    text-shadow: 2px 3px rgb(235, 40, 6);
+    border-style: solid;
+    filter: blur(1px);
     border-color: saddlebrown;
+    border: solid 4px rgb(248, 175, 175);
   
 }
 
@@ -106,6 +115,8 @@ tr:hover {
     .wilde.css {
       box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     }
+
+
     ul.navbar-horizontal {
         list-style-type: none;
         margin: 0;
@@ -126,6 +137,7 @@ tr:hover {
     }
     a{
         font-size: x-large;
+        text-decoration: none;
     }
 
     a.hover{
@@ -136,6 +148,4 @@ tr:hover {
      
 
 
- /* body{
-    background-image:url("background.jpg")
-}  */
+ 
